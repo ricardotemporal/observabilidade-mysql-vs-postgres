@@ -1,0 +1,29 @@
+# Volumes Docker
+data/
+
+# Resultados (mantemos o results.csv principal, ignoramos pilotos e variações)
+results/piloto.csv
+results/raw/
+results/*.tmp.csv
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Credenciais (nunca commitar!)
+.env
+*.key
+*.pem
